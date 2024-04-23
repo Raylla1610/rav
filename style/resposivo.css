@@ -1,0 +1,278 @@
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        display: block;
+      
+    }
+
+    .container__imagem {
+      width: 10%;
+      position: relative; 
+	  right: 40%;
+      top:-40px;
+      margin-left:-118px;
+	  margin-top:-100px;
+    }
+
+    .container__caixa {
+        margin: 2em 2em;
+    }
+
+    .descricao__texto{
+       color: aliceblue;
+       right: 50px;
+       padding-right: 70px;
+
+    }
+
+    .descricao__texto2{
+        text-align: left;
+      color: aliceblue;
+    }
+
+    .segundario {
+        margin: 0;
+    }
+
+    .segundario__imagem {
+      width: 50%;
+      display:inline-block;
+  
+    }
+
+    .secundario__imagem2{
+        width: 70%;
+        display:inline-block;
+    }
+
+    .container__botao {
+        position: relative; 
+        bottom: -270px;
+    }
+
+    .container_aviso{
+        position: relative; 
+        bottom: -270px;
+        color: aliceblue;
+    }
+
+     .secundario__botao {
+        position: relative; 
+        top: -170px;
+    }
+
+    .dispositivos__lista {
+     display: block;
+     row-gap: 70px;
+    }
+
+    .lista_modelos{
+        border: none;
+    }
+
+    .rodape__lista{
+      display: block;
+    }
+
+}
+
+        /* MOBILE */
+@media screen and (min-width: 330px) and (max-width: 767px){
+    .container {
+        margin: auto 0;
+        background-image: none;
+        text-align: center;
+        display: block; /* Necessário para o margin funcionar */
+        margin-left: auto; 
+        margin-right: auto;
+        
+      
+    }
+
+    .container__imagem {  
+        display: block;
+        margin: 0 auto;
+        width: 290px;
+        margin-left: 80px;
+        left: 70px;
+        top: 60px;
+    }
+
+    .container__caixa {
+        margin: 2em 2em;
+    }
+
+    .descricao__texto{
+        text-align: center;
+        color: aliceblue;
+        flex-wrap: nowrap;
+        display: inline-block;
+        position: relative; 
+        bottom: -35px;
+        left: 75px;
+
+
+    }
+
+    .descricao__texto2{
+      text-align: center;
+      color: aliceblue;
+      flex-wrap: nowrap;
+      display: inline-block;
+      position: relative; 
+      bottom: -35px;
+      left: 50px;
+    }
+
+    .descricao__texto3{
+        color:aliceblue;
+        text-align: center;
+        flex-wrap: nowrap;
+        display:inline-block;
+        bottom: -35px;
+        right: 30px;
+        margin-right: 90px;
+        width: 250px;
+    
+  }
+
+    .descricao__titulo{
+        text-align: center;
+        flex-wrap: nowrap;
+        display: inline-block;
+        position: relative; 
+        bottom: -35px;
+        left: 50px;
+    }
+
+    .descricao__titulo2{
+        text-align: center;
+        flex-wrap: wrap;
+        display:inline-block;
+        bottom: -35px;
+        left: 70px;
+        margin-left: -70px;
+        margin-right: 80px;
+        width: 380px;
+    }
+
+    .segundario {
+        margin: 0;
+    }
+
+    .segundario__imagem {
+        row-gap: 30px;
+        display: block;
+        width: 30px;
+        text-align: center;
+        right: -60px;
+        margin-left: 90px;
+        margin-right: -70px;
+        border-radius: 20px 0px 20px 0px;
+    }
+
+    .secundario__imagem1{
+        row-gap: 30px;
+        display: block;
+        width: 280px;
+        text-align: center;
+        right: -50px;
+        left: 40px;
+        margin-left: 125px;
+        margin-right: -50px;
+        border-radius: 20px 0px 20px 0px;
+    }
+
+     .secundario__imagem2{        /*ALANNA */
+        display: inline-block;
+        text-align: center;
+        width: 280px;
+        padding-bottom: 20px;
+        margin-left: -35px; 
+        margin-right: -90px;
+        margin-top: -70px;
+        
+
+       
+    }
+
+    .conteiner secundario{
+      align-items: center;
+      justify-content: center;
+       
+    }
+
+    .content__titulo{
+        text-align: center;
+        color: aliceblue;
+        flex-wrap: nowrap;
+        display: inline-block;
+        position: relative; 
+        bottom: -35px;
+        left: 50px;
+    }
+
+
+    .container__botao {
+        position: relative; 
+        bottom: -55px;
+        margin-left: 3%;
+        left: 45px;
+    }
+
+    .container_aviso{
+        display: inline-block;
+        position: relative; 
+        bottom: -65px;
+        left: 25px;
+        text-align: center;
+        color: aliceblue;
+    }
+
+     .secundario__botao {
+        position: relative; 
+        top: -170px;
+    }
+
+    .dispositivos__lista {
+     display: block;
+     row-gap: 70px;
+     
+    }
+
+.dispositivos__titulos{
+    text-align: center;
+    flex-wrap: nowrap;
+    display: inline-block;
+    position: relative; 
+    bottom: -35px;
+    left: 50px;
+    
+    
+    }
+
+    .lista_modelos{
+        border: none;
+        margin-left: 80px;
+        top: 40px;
+        
+    }
+
+    .rodape__logo{
+        display: block;
+        margin-left: 0px;
+        margin-left: 165px;
+        top: 60px;
+    }
+
+    .rodape__lista{
+      display: block;
+      margin-left: 80px;
+    }
+
+    .rodape__texto{
+        display: block;
+        margin-left: 80px
+    }
+
+}
+
